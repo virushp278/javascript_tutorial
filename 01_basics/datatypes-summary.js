@@ -51,3 +51,7 @@ userTwo.email ="harsh@gmail.com";
 console.log(userOne.email)
 console.log(userTwo.email)
 console.log("this is just a test message tocheck whether my work is getting updated")//
+
+//type of Date is object
+let myDate= new Date()
+console.log(typeof myDate);
