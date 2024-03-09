@@ -12,6 +12,20 @@
      latsLoginDays: ["monday","saturday"]
  }
  
- console.log(JsUser.name);
- console.log(JsUser["email"]);
- console.log(JsUser[mySym])
+//  console.log(JsUser.name);
+//  console.log(JsUser["email"]);
+//  console.log(JsUser[mySym])
+
+
+JsUser.greetings = function(){
+    console.log("Hello Js User!!");
+
+}
+
+
+JsUser.greetings2 = function(){
+    console.log(`Hello Js User!!,${this.name}`);
+
+}
+console.log(JsUser.greetings());
+console.log(JsUser.greetings2());
